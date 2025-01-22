@@ -2024,9 +2024,9 @@ footer{
         height: 100%;
     }
     .logo{
-        width: 80%;
+        width: 40%;
         top: 0%;
-        margin-inline: 10%;
+        margin-top: 5%;
     }
     h1{
         text-align: center;
@@ -2048,7 +2048,7 @@ footer{
     }
     h3{
         width: 50%;
-        font-size: 120%;
+        font-size: 100%;
         line-height: 170%;
         top: 85%;
     }
@@ -2140,38 +2140,38 @@ footer{
     .servico1{
         width: 30%;
         left: 13%;
-        top: 22%;
-        height: 19%;
+        top: 21%;
+        height: 22%;
     }
     .servico2{
         width: 30%;
-        top: 22%;
+        top: 21%;
         left: 55%;
         height: 19%;
     }
     .servico3{
-        top: 48%;
+        top: 47%;
         left: 13%;
         width: 30%;
-        height: 19%;
+        height: 22%;
     }
     .servico4{
         width: 30%;
         left: 55%;
-        top: 48%;
-        height: 19%;
+        top: 47%;
+        height: 22%;
     }
     .servico5{
         width: 30%;
         left: 13%;
-        top: 74%;
-        height: 19%;
+        top: 73%;
+        height: 22%;
     }
     .servico6{
         width: 30%;
         left: 55%;
-        top: 74%;
-        height: 19%;
+        top: 73%;
+        height: 22%;
     }
     .ts1{
         margin-top: 10%;
@@ -2291,7 +2291,7 @@ footer{
         margin-top: 15%;
     }
     .criador{
-        top: 0%;
+        top: 7%;
         left: 0%;
         margin-inline: 14.5%;
         margin-top: 100%;
