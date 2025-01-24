@@ -18,11 +18,11 @@ header{
     justify-content: center;
 }
 .logo{
-    width: 10%;
+    width: 25%;
     box-sizing: border-box;
     position: absolute;
     top: 0%;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 h1{
     text-transform: uppercase;
@@ -35,7 +35,7 @@ h1{
 h2{
     box-sizing: border-box;
     position: absolute;
-    top: 48%;
+    top: 55%;
     font-size: larger;
 }
 p{
@@ -536,225 +536,79 @@ footer{
 
 }
 @media screen and (max-width:1440px) and (max-height:900px) {
-    h2{
-        top: 51%;
-    }
-    h3{
-        line-height: 150%;
-    }
-    .whatsappLogo{
-        position: absolute;
-        left: 85%;
-        top: 15%;
-    }
-    .tituloQuemSou{
-        top: 1%;
-    }
-    .nomeQuemSou{
-        top: 15%;
-    }
-    .oabQuemSou{
-        top: 20%;
-    }
-    .paragrafoQuemSou{
-        top: 25%;
-        font-size: 110%;
-    }
-    .fotoAdvogado{
-        position: absolute;
-        bottom: 0%;
-    }
-    .mapaEndereco{
-        top: 26%;
-        width: 40%;
-    }
-    .tituloEndereco{
-        top: 7%;
-    }
-    .subtituloEndereco{
-        left: 52%;
-        top: 25%;
-    }
-    .paragrafoEndereco{
-        left: 24%;
-        top: 35%;
-    }
-    .tituloServico{
-        top: 2%;
-    }
-    .servico{
-        top: 22%;
-        height: 30%;
-    }
-    .servico4{
-        top: 60%;
-    }
-    .servico5{
-        top: 60%;
-    }
-    .servico6{
-        top: 60%;
-    }
-    .tituloRedes{
-        top: -5%;
-    }
-    .redes1{
-        line-height: 110%;
-    }
-    .redes2{
-        line-height: 110%;
-    }
-    .redes3{
-        line-height: 110%;
-    }
-    .redes4{
-        line-height: 110%;
-    }
+    
+   h3{
+    width: 17%;
+   }
+   h3:hover{
+    width: 21%;
+   }
+
 }
 @media screen and (max-width:1400px) and (max-height:1050px) {
+    
     .logo{
-        width: 40%;
-    }
-    h2{
-        top: 51%;
+        margin-top: 5%;
+        width: 30%;
     }
     h3{
-        line-height: 140%;
         width: 20%;
-        font-size: 150%;
     }
     h3:hover{
-        width: 25%;
-        font-size: 190%;
+        width: 23%;
     }
-    .whatsappLogo{
-        position: absolute;
-        left: 85%;
-        top: 10%;
-    }
-    .tituloQuemSou{
-        top: 1%;
-    }
-    .nomeQuemSou{
-        top: 15%;
-    }
-    .oabQuemSou{
-        top: 20%;
-    }
-    .paragrafoQuemSou{
-        top: 25%;
-        font-size: 110%;
+
+   
+    .barraQuemSou{
+        top: 95%;
     }
     .fotoAdvogado{
-        position: absolute;
-        bottom: 0%;
         width: 40%;
     }
+    
+    
     .fachadaAdvocacia{
-        width: 100%;
-        top: 5%;
-    }
-    .mapaEndereco{
-        top: 26%;
-        width: 40%;
+        top: 1%;
     }
     .tituloEndereco{
-        top: 7%;
+        top: 10%;
+    }
+    .mapaEndereco{
+        top: 30%;
     }
     .subtituloEndereco{
-        left: 52%;
-        top: 25%;
+        top: 30%;
     }
     .paragrafoEndereco{
-        left: 24%;
         top: 35%;
     }
-    .tituloServico{
-        top: 2%;
+
+    .ts1, .ts2, .ts3, .ts4, .ts5, .ts6{
+        font-size: medium;
     }
-    .servico{
-        top: 22%;
-        height: 25%;
-    }
-    .servico4{
-        top: 60%;
-    }
-    .servico5{
-        top: 60%;
-    }
-    .servico6{
-        top: 60%;
-    }
-    .tituloRedes{
-        top: -5%;
-    }
-    .redes1{
-        line-height: 140%;
-    }
-    .imgRedes1{
-        width: 12%;
-    }
-    .redes2{
-        line-height: 140%;
-    }
-    .imgRedes2{
-        width: 11%;
-    }
-    .redes3{
-        line-height: 140%;
-    }
-    .imgRedes3{
-        width: 11%;
-    }
-    .redes4{
-        line-height: 140%;
-    }
-    .imgRedes4{
-        width: 11%;
-    }
-    .fotoCelular{
-        width: 45%;
-    }
+    
 }
 @media screen and (max-width:1366px) and (max-height:768px) {
     .logo{
-        width: 30%;
+        margin-top: 0%;
+        width: 25%;
     }
-    h2{
-        top: 51%;
-    }
-    h3{
-        line-height: 150%;
-        height: 6%;
-    }
-    h3:hover{
-        height: 7%;
-        line-height: 135%;
-    }
-    .whatsappLogo{
-        position: absolute;
-        left: 85%;
-        top: 15%;
-    }
-    .tituloQuemSou{
-        top: -2%;
-    }
-    .nomeQuemSou{
-        top: 13%;
-        font-size: 150%;
-    }
+    
+    
+    
     .oabQuemSou{
-        top: 18%;
+        margin-top: 2%;
     }
     .paragrafoQuemSou{
-        top: 25%;
-        font-size: 100%;
+        font-size: medium;
+        margin-top: 2%;
     }
     .fotoAdvogado{
-        position: absolute;
-        bottom: 0%;
         width: 29%;
     }
+
+
+    
     .fachadaAdvocacia{
         width: 100%;
         top: 5%;
