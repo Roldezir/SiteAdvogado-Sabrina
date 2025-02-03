@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 .tomDeFundo{
-    background-color: #ffffff;
+    background-color: #ffffffd5;
     box-sizing: border-box;
     position: fixed;
     width: 100%;
@@ -53,7 +53,7 @@ h3{
     position: absolute;
     top: 75%;
     background-color: #363435;
-    width: 13%;
+    width: 19%;
     text-align: center;
     height: 4%;
     
@@ -79,7 +79,7 @@ h3{
     margin-right: 5%;
 }
 h3:hover{
-    width: 17%;
+    width: 23%;
     height: 5%;
     font-size: x-large;
     top: 74%;
@@ -113,7 +113,15 @@ h3:hover{
     font-size: x-large;
     color: #ffffff;
 }
-.oabQuemSou{
+.nomeQuemSou1{
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-size: x-large;
+    color: #ffffff;
+}
+/*.oabQuemSou{
     box-sizing: border-box;
     position: absolute;
     top: 24%;
@@ -121,13 +129,23 @@ h3:hover{
     left: 20.1%;
     font-size: small;
     color: white;
-}
+}*/
 .paragrafoQuemSou{
     box-sizing: border-box;
     position: absolute;
     text-align: left;
     left: -8%;
-    top: 30%;
+    top: 25%;
+    margin-right: 50%;
+    font-size: large;
+    color: white;
+}
+.paragrafoQuemSou1{
+    box-sizing: border-box;
+    position: absolute;
+    text-align: left;
+    left: -8%;
+    top: 60%;
     margin-right: 50%;
     font-size: large;
     color: white;
@@ -147,7 +165,7 @@ h3:hover{
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    top: -10%;
+    top: -7%;
     z-index: -1;
 }
 .barraEndereco{
@@ -217,9 +235,10 @@ h3:hover{
     box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.788);
 }
 .servico1{
-    left: 20%;
+    text-align: center;
+    left: 16%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -233,12 +252,12 @@ h3:hover{
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 .servico2{
-    left: 45%;
+    text-align: center;
+    left: 41%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -247,18 +266,19 @@ h3:hover{
 .ts2{
     top: 0%;
     font-size: larger;
+    line-height: 90%;
 }
 .ps2{
     top: 25%;
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 .servico3{
-    left: 70%;
+    text-align: center;
+    left: 66%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -273,13 +293,13 @@ h3:hover{
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 .servico4{
-    left: 20%;
+    text-align: center;
+    left: 16%;
     top: 65%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -294,13 +314,13 @@ h3:hover{
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 .servico5{
-    left: 45%;
+    text-align: center;
+    left: 41%;
     top: 65%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -315,13 +335,13 @@ h3:hover{
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 .servico6{
-    left: 70%;
+    text-align: center;
+    left: 66%;
     top: 65%;
     background-color: white;
-    width: 10%;
+    width: 17%;
     height: 25%;
     border-radius: 30px;
     display: flex;
@@ -336,7 +356,6 @@ h3:hover{
     top: 22%;
     margin-inline: 5%;
     font-size: medium;
-    line-height: 80%;
 }
 
 
@@ -365,11 +384,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 6%;
     font-size: x-large;
     top: 25%;
-    left: 30%;
+    left: 48%;
     background-color: #ff0095;
     color: white;
 }
@@ -384,9 +403,9 @@ footer{
     margin-right: 5%;
 }
 .redes1:hover{
-    width: 30%;
+    width: 20%;
     height: 7%;
-    left: 28%;
+    left: 46%;
     font-size: xx-large;
     top: 23%;
     background-color: aliceblue;
@@ -396,10 +415,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 6%;
     font-size: x-large;
-    top: 35%;
+    top: 25%;
     left: 30%;
     background-color: rgb(0, 255, 115);
 }
@@ -414,11 +433,11 @@ footer{
     margin-right: 5%;
 }
 .redes2:hover{
-    width: 30%;
+    width: 20%;
     height: 7%;
     left: 28%;
     font-size: xx-large;
-    top: 33%;
+    top: 23%;
     background-color: aliceblue;
     color: rgb(0, 255, 115);
 }
@@ -426,11 +445,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 6%;
     font-size: x-large;
-    top: 45%;
-    left: 30%;
+    top: 35%;
+    left: 48%;
     background-color: #ff0095;
     color: white;
 }
@@ -445,11 +464,11 @@ footer{
     margin-right: 5%;
 }
 .redes3:hover{
-    width: 30%;
+    width: 20%;
     height: 7%;
-    left: 28%;
+    left: 46%;
     font-size: xx-large;
-    top: 44%;
+    top: 35%;
     background-color: aliceblue;
     color: rgb(255, 0, 149);
 }
@@ -457,10 +476,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 15%;
     height: 6%;
     font-size: x-large;
-    top: 55%;
+    top: 35%;
     left: 30%;
     background-color: rgb(0, 255, 115);
     color: white;
@@ -476,11 +495,11 @@ footer{
     margin-right: 5%;
 }
 .redes4:hover{
-    width: 30%;
+    width: 20%;
     height: 7%;
     left: 28%;
     font-size: xx-large;
-    top: 55%;
+    top: 35%;
     background-color: aliceblue;
     color: rgb(0, 255, 115);
 }
@@ -507,15 +526,72 @@ footer{
     }
 }
 
-
+@media screen and (max-width:1680px) and (max-height:1050px) {
+    h3{
+        width: 22%;
+    }
+    h3:hover{
+        width: 27%;
+    }
+    .ps1, .ps2, .ps3, .ps4, .ps5, .ps6{
+        line-height: 90%;
+    }
+    .servico1, .servico2, .servico3, .servico4, .servico5, .servico6{
+        width: 18%;
+    }
+    .servico1, .servico4{
+        left: 15%;
+    }
+    .servico2, .servico5{
+        left: 40%;
+    }
+    .servico3, .servico6{
+        left: 65%;
+    }
+    .redes1, .redes2, .redes3, .redes4{
+        font-size: medium;
+    }
+    .redes1:hover{
+        font-size: larger;
+    }
+    .redes2:hover{
+        font-size: larger;
+    }
+    .redes3:hover{
+        font-size: larger;
+    }
+    .redes4:hover{
+        font-size: larger;
+    }
+}
 @media screen and (max-width:1600px) and (max-height:900px) {
     h2{
         top: 51%;
     }
     h3{
-        width: 15%;
+        width: 22%;
     }
-    
+    .whatsappLogo{
+        width: 5%;
+    }
+
+    .nomeQuemSou{
+        font-size: large;
+        top: 17%;
+    }
+    .nomeQuemSou1{
+        font-size: large;
+        top: 55%;
+    }
+    .paragrafoQuemSou{
+        font-size: medium;
+        top: 22%;
+    }
+    .paragrafoQuemSou1{
+        font-size: medium;
+        top: 60%;
+    }
+
     .mapaEndereco{
         top: 30%;
     }
@@ -534,14 +610,18 @@ footer{
         top: 60%;
     }
 
+    .imgRedes1, .imgRedes2, .imgRedes3, .imgRedes4{
+        width: 9%;
+    }
+
 }
 @media screen and (max-width:1440px) and (max-height:900px) {
     
    h3{
-    width: 17%;
+    width: 25%;
    }
    h3:hover{
-    width: 21%;
+    width: 32%;
    }
 
 }
@@ -552,10 +632,10 @@ footer{
         width: 30%;
     }
     h3{
-        width: 20%;
+        width: 27%;
     }
     h3:hover{
-        width: 23%;
+        width: 32%;
     }
 
    
@@ -564,8 +644,15 @@ footer{
     }
     .fotoAdvogado{
         width: 40%;
+        margin-right: 5%;
     }
-    
+    .nomeQuemSou, .nomeQuemSou1 {
+        left: 10%;
+    }
+    .paragrafoQuemSou, .paragrafoQuemSou1{
+        left: -18%;
+        
+    }
     
     .fachadaAdvocacia{
         top: 1%;
@@ -585,6 +672,14 @@ footer{
 
     .ts1, .ts2, .ts3, .ts4, .ts5, .ts6{
         font-size: medium;
+        margin-bottom: 0%;
+    }
+    .ps1, .ps2, .ps3, .ps4, .ps5, .ps6{
+        margin-top: 0%;
+        top: 19%;
+    }
+    .imgRedes1, .imgRedes2, .imgRedes3, .imgRedes4{
+        width: 9%;
     }
     
 }
@@ -605,6 +700,9 @@ footer{
         width: 29%;
     }
 
+    .fachadaAdvocacia{
+        top: -3%;
+    }
     .mapaEndereco{
         top: 25%;
         width: 40%;
@@ -622,7 +720,7 @@ footer{
     }
     .ps1, .ps2, .ps3, .ps4, .ps5, .ps6{
         top: 20%;
-        line-height: 80%;
+        line-height: 100%;
         font-size: small;
     }
    
@@ -636,10 +734,10 @@ footer{
         margin-top: 5%;
     }
     h3{   
-        width: 20%;
+        width: 27%;
     }
     h3:hover{
-        width: 25%;
+        width: 35%;
         height: 5%;
         top: 74%;
     }
@@ -651,15 +749,14 @@ footer{
         margin-right: 5%;   
     }
 
+    .fachadaAdvocacia{
+        top: -5%;
+    }
     .tituloEndereco{
         top: -1%;
     }
     
-    .servico{
-        top: 26%;
-        height: 25%;
-        width: 12%;
-    }
+    
     .servico4{
         top: 65%;
     }
@@ -673,14 +770,16 @@ footer{
     .tituloRedes{
         top: -5%;
     }
+    .ts4{
+        margin-inline: 5%;
+    }
     .ps1, .ps2, .ps3, .ps4, .ps5, .ps6{
-        top: 20%;
-        line-height: 80%;
+        top: 24%;
         font-size: medium;
     }
     .fotoCelular{
         width: 25%;
-        margin-right: 15%;
+        margin-right: 10%;
     }
     
 }
@@ -719,19 +818,20 @@ footer{
         margin-inline: 5%;
         margin-top: 90%;
         top: 0%;
+        text-align: center;
     }
     p{
         margin-inline: 5%;
         margin-top: 0%;
     }
     h3{
-        width: 50%;
+        width: 70%;
         font-size: 100%;
         line-height: 170%;
         top: 75%;
     }
     h3:hover{
-        width: 50%;
+        width: 80%;
         font-size: 100%;
         line-height: 170%;
         top: 75%;
@@ -746,20 +846,29 @@ footer{
     }
     .nomeQuemSou{
         font-size: 110%;
-        margin-top: 25%;
+        margin-top: 23%;
         left: 0%;
         top: 0%;
+        margin-inline: 28.5%;
     }
-    .oabQuemSou{
-        font-size: 80%;
-        margin-top: 31%;
-        top: 0%;
+    .nomeQuemSou1{
+        font-size: 110%;
+        margin-top: 85%;
         left: 0%;
+        top: 0%;
+        margin-inline: 28.5%;
     }
     .paragrafoQuemSou{
         left: 0%;
         top: 0%;
-        margin-top: 40%;
+        margin-top: 33%;
+        margin-right: 10%;
+        font-size: 85%;
+    }
+    .paragrafoQuemSou1{
+        left: 0%;
+        top: 0%;
+        margin-top: 93%;
         margin-right: 10%;
         font-size: 85%;
     }
@@ -791,7 +900,7 @@ footer{
         top: 0%;
         text-align: center;
         margin: 0%;
-        margin-top: 50%;
+        margin-top: 45%;
         left: 0%;
         margin-inline: 30%;
     }
@@ -799,7 +908,7 @@ footer{
         height: 40%;
         width: 80%;
         top: 0%;
-        margin-top: 110%;
+        margin-top: 100%;
         margin-inline: 10%;
         left: 0%;
     }
@@ -812,46 +921,47 @@ footer{
     }
     .tituloServico{
         display: flex;
+        top: 4%;
         left: 0%;
         margin-inline: 10%;
         margin-top: 0%;
         text-align: center;
     }
     .servico1{
-        width: 30%;
-        left: 13%;
-        top: 21%;
-        height: 22%;
+        width: 40%;
+        left: 6%;
+        top: 16%;
+        height: 26%;
     }
     .servico2{
-        width: 30%;
-        top: 21%;
+        width: 40%;
+        top: 16%;
         left: 55%;
-        height: 22%;
+        height: 26%;
     }
     .servico3{
-        top: 47%;
-        left: 13%;
-        width: 30%;
-        height: 22%;
+        top: 44%;
+        left: 6%;
+        width: 40%;
+        height: 26%;
     }
     .servico4{
-        width: 30%;
+        width: 40%;
         left: 55%;
-        top: 47%;
-        height: 22%;
+        top: 44%;
+        height: 26%;
     }
     .servico5{
-        width: 30%;
-        left: 13%;
-        top: 73%;
-        height: 22%;
+        width: 40%;
+        left: 6%;
+        top: 72%;
+        height: 26%;
     }
     .servico6{
-        width: 30%;
-        left: 55%;
-        top: 73%;
-        height: 22%;
+        width: 40%;
+        left: 54%;
+        top: 72%;
+        height: 26%;
     }
     .ts1, .ts2, .ts3, .ts4, .ts5, .ts6{
         margin-top: 10%;
@@ -874,6 +984,12 @@ footer{
         width: 80%;
         left: 10%;
         font-size: x-large;
+    }
+    .redes1{
+        top: 45%;
+    }
+    .redes3{
+        top: 55%;
     }
     .fotoCelular{
         display: none;
