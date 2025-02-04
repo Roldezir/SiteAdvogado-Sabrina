@@ -838,7 +838,10 @@ footer{
     }
     
     .barraQuemSou{
-        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
     }
     .tituloQuemSou{
         top: 0%;
@@ -880,7 +883,7 @@ footer{
         display: none;
     }
     .barraEndereco{
-        top: 160%;
+        top: 180%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -914,7 +917,8 @@ footer{
     }
     
     .barraServico{
-        top: 260%;
+        top: 280%;
+        height: 120%;
     }
     .servico{
         font-size: x-small;
@@ -973,7 +977,7 @@ footer{
     }
 
     footer{
-        top: 360%;
+        top: 400%;
         height: 70%;
     }
     .redes1, .redes2, .redes3, .redes4{
